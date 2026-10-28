@@ -1,0 +1,5 @@
+# Akses folder langsung diarahkan ke halaman utama aplikasi.
+DirectoryIndex index.php
+
+# Jangan tampilkan daftar isi folder jika index tidak tersedia.
+Options -Indexes

@@ -1,0 +1,23 @@
+# Log dan file sementara
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# Konfigurasi rahasia lokal (jangan simpan kredensial produksi di repositori)
+.env
+.env.*
+config/database.local.php
+
+# Berkas sistem operasi dan editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+.cache/
+
+# Berkas cadangan database
+*.sql.gz
+*.dump
